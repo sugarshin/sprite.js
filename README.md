@@ -1,1 +1,5 @@
 # Sprite
+
+```shell
+npm start
+```

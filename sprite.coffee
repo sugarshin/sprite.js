@@ -1,4 +1,4 @@
-extend = require 'node.extend'
+extend = require 'extend'
 
 class Sprite
   "use strict"
@@ -28,4 +28,4 @@ if typeof define is 'function' and define.amd
 else if typeof module isnt 'undefined' and module.exports
   module.exports = Sprite
 else
-  global.Sprite or= Sprite
+  window.Sprite or= Sprite
